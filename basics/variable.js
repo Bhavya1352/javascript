@@ -13,8 +13,8 @@ var accountPassword = "12333333333"
      accountCity="benglali"
 
      console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
-         /*
-         var prefer not to use due to block scope and functional scope
-         /*
-
+        
+        //  var prefer not to use due to block scope and functional scope
+        
+         
 
