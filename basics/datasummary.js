@@ -8,9 +8,12 @@
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id===anotherId);
+// console.log(id===anotherId);
 
 // memory types- stack (primitve) - we will get variable copy and Heap (non primitive)- we get refrence of orignal value
-let youtubename = bhavya.com
+let youtubename = "bhavya.com"
 let anothername = youtubename
+anothername= "chailover"
+console.log(youtubename);
 console.log(anothername);
+
