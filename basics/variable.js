@@ -14,7 +14,7 @@ var accountPassword = "12333333333"
 
      console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
         
-        //  var prefer not to use due to block scope and functional scope
+        //  var not prfer because it has functional scope instead of block scope
         
          
 

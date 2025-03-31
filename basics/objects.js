@@ -53,7 +53,34 @@ const obj2 ={3 :"a", 4:"b"}
 // const obj3 =Object.assign(obj1,obj2,{}) 
 // or we can Write 
 const obj3 = {...obj1,...obj2}
-console.log(obj3)
+// console.log(obj3)
+
+// Destructuring-
+const course= {
+  courseName:"bhavya",
+  coursePrice:"999",
+  courseInstructor :"Harsh"
+}
+const {courseInstructor:instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+// if you think value in console log -courseInstructor is big you can write courseInstructor:Instructor 
+// then print instructor value same 
+// API --JSN FORMAT
+{
+   " course": "bhavya",
+   "price" : "999",
+   "Age" :"100",
+}
+[
+    {}
+    {}
+    {}
+    {}
+   {} 
+]
+
+
 
 
 
