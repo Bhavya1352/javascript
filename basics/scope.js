@@ -29,3 +29,13 @@ if(true) {
     two()
 }
 one()
+if (true){
+    const username = "Bhavya"
+    if(username === "Bhavya"){
+        const website = "youtube"
+        console.log(username  +   website);
+
+    }
+    // console.log(website)
+}
+// console.log(username)
