@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Events Conducted</h1>
+    <ul class="image">
+    <li><img src="bh.jpg.jpg" alt="" id="men"></li>
+    <li><img src="download.jpg" alt="" id="flower"></li>
+    </ul>
+    </body>
+    <script>
+// <!-- attachevent -->
+//  <!-- jQuery = on  -->
+
+    // document.getElementById('men').addEventListener('click',function(men){
+        // alert('clicked already')
+    // })
+    // false is default
+    // document.getElementById('men').addEventListener('click',function(e){
+        // console.log(e);
+        // type, timestamp,defaultprevented
+        // trget,toElement,srcElement,currenttarget
+        // clientX,clientY,screenX,screenY
+        // ALTKEY,CITRLKEY,SHIFTKEY,KEY CODE 
+        // LEARN ABOVE FOR INTERVIEW
+    // })
+    // event propogation
+    // event bubbling- neeche se upar
+    // event capturing - top se neeche
+    document.getElementById('image').addEventListener('click',function(e){
+        console.log("image done");
+        } ,false)
+    document.getElementById('men').addEventListener('click',function(e){
+        console.log("men clicked");
+        e.stopPropagation()
+         } ,false)
+         
+
+</script>
+</html>
